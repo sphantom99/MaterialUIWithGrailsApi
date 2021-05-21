@@ -116,6 +116,9 @@ export default function Album() {
             {cards.map((card, index) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
+                  <Grid container justify="center">
+                      <Avatar style={{ width: '70%', height: '90%', justifyContent: 'center' }} src="https://picsum.photos/200" />
+                  </Grid>
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Employee
