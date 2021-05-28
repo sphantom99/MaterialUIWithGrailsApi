@@ -117,7 +117,10 @@ export default function Album() {
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <Grid container justify="center">
-                      <Avatar style={{ width: '70%', height: '90%', justifyContent: 'center' }} src="https://picsum.photos/200" />
+                    <Avatar
+                      style={{ width: '70%', height: '90%', justifyContent: 'center' }}
+                      src="https://picsum.photos/200"
+                    />
                   </Grid>
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
@@ -125,7 +128,7 @@ export default function Album() {
                       {` ${index}`}
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      This is a media card. You use this section to describe the content.
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -137,7 +140,7 @@ export default function Album() {
                       </Grid>
                       <Grid item xs={3} />
                       <Grid item xs={2}>
-                        <IconButton color="primary">
+                        <IconButton color="secondary">
                           <VisibilityIcon />
                         </IconButton>
                       </Grid>
