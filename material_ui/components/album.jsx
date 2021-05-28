@@ -128,7 +128,7 @@ export default function Album() {
                       {` ${index}`}
                     </Typography>
                     <Typography>
-                      This is a media card. You use this section to describe the content.
+                      This is a card. You use this section to describe the content.
                     </Typography>
                   </CardContent>
                   <CardActions>
