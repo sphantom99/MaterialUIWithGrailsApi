@@ -97,7 +97,7 @@ export default function Album() {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    Main call to action
+                    Main call
                   </Button>
                 </Grid>
                 <Grid item>
@@ -129,7 +129,7 @@ export default function Album() {
                       {` ${index}`}
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      This is a card. You use this section to describe the content.
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -141,13 +141,13 @@ export default function Album() {
                       </Grid>
                       <Grid item xs={3} />
                       <Grid item xs={2}>
-                        <IconButton color="primary">
+                        <IconButton color="secondary">
                           <VisibilityIcon />
                         </IconButton>
                       </Grid>
                       <Grid item xs={3} />
                       <Grid item xs={2}>
-                        <IconButton style={{ color: 'red' }}>
+                        <IconButton style={{ color: 'blue' }}>
                           <DeleteIcon />
                         </IconButton>
                       </Grid>
@@ -159,7 +159,7 @@ export default function Album() {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
+      
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
           Footer
@@ -169,7 +169,7 @@ export default function Album() {
         </Typography>
         <Copyright />
       </footer>
-      {/* End footer */}
+      
     </>
   );
 }
