@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
   },
   cardMedia: {
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '5  %', // 16:9
   },
   cardContent: {
     flexGrow: 1,
@@ -65,7 +65,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(6),
   },
 }));
-
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export default function Album() {
@@ -116,9 +115,14 @@ export default function Album() {
             {cards.map((card, index) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
-                  <Grid container justify="center">
-                      <Avatar style={{ width: '70%', height: '90%', justifyContent: 'center' }} src="https://picsum.photos/200" />
-                  </Grid>
+                  <CardMedia className={classes.cardMedia}>
+                    <Grid container justify="center">
+                      <Avatar
+                        style={{ width: '70%', height: '90%', justifyContent: 'center' }}
+                        src="https://picsum.photos/200"
+                      />
+                    </Grid>
+                  </CardMedia>
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Employee
