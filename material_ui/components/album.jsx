@@ -147,7 +147,7 @@ export default function Album() {
                       </Grid>
                       <Grid item xs={3} />
                       <Grid item xs={2}>
-                        <IconButton style={{ color: 'red' }}>
+                        <IconButton style={{ color: 'blue' }}>
                           <DeleteIcon />
                         </IconButton>
                       </Grid>
