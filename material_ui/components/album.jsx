@@ -97,7 +97,7 @@ export default function Album() {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    Main call to action
+                    Main call
                   </Button>
                 </Grid>
                 <Grid item>
@@ -159,7 +159,7 @@ export default function Album() {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
+      
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
           Footer
@@ -169,7 +169,7 @@ export default function Album() {
         </Typography>
         <Copyright />
       </footer>
-      {/* End footer */}
+      
     </>
   );
 }
